@@ -38,7 +38,7 @@
     },
     "description": "More info available on: http://pear.php.net/package/HTML_QuickForm",
     "license": "PHP License",
-    "name": "pear/html_quickform",
+    "name": "asivas/html_quickform",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_QuickForm",
         "source": "https://github.com/pear/HTML_QuickForm"
