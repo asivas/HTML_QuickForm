@@ -68,19 +68,19 @@ $GLOBALS['HTML_QUICKFORM_ELEMENT_TYPES'] =
  * @global array $GLOBALS['_HTML_QuickForm_registered_rules']
  */
 $GLOBALS['_HTML_QuickForm_registered_rules'] = array(
-    'required'      => array('html_quickform_rule_required', 'HTML/QuickForm/Rule/Required.php'),
-    'maxlength'     => array('html_quickform_rule_range',    'HTML/QuickForm/Rule/Range.php'),
-    'minlength'     => array('html_quickform_rule_range',    'HTML/QuickForm/Rule/Range.php'),
-    'rangelength'   => array('html_quickform_rule_range',    'HTML/QuickForm/Rule/Range.php'),
-    'email'         => array('html_quickform_rule_email',    'HTML/QuickForm/Rule/Email.php'),
-    'regex'         => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
-    'lettersonly'   => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
-    'alphanumeric'  => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
-    'numeric'       => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
+    'required'      => array('HTML_QuickForm_Rule_Required', 'HTML/QuickForm/Rule/Required.php'),
+    'maxlength'     => array('HTML_QuickForm_Rule_Range',    'HTML/QuickForm/Rule/Range.php'),
+    'minlength'     => array('HTML_QuickForm_Rule_Range',    'HTML/QuickForm/Rule/Range.php'),
+    'rangelength'   => array('HTML_QuickForm_Rule_Range',    'HTML/QuickForm/Rule/Range.php'),
+    'email'         => array('HTML_QuickForm_Rule_Email',    'HTML/QuickForm/Rule/Email.php'),
+    'regex'         => array('HTML_QuickForm_Rule_Regex',    'HTML/QuickForm/Rule/Regex.php'),
+    'lettersonly'   => array('HTML_QuickForm_Rule_Regex',    'HTML/QuickForm/Rule/Regex.php'),
+    'alphanumeric'  => array('HTML_QuickForm_Rule_Regex',    'HTML/QuickForm/Rule/Regex.php'),
+    'numeric'       => array('HTML_QuickForm_Rule_Regex',    'HTML/QuickForm/Rule/Regex.php'),
     'nopunctuation' => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
-    'nonzero'       => array('html_quickform_rule_regex',    'HTML/QuickForm/Rule/Regex.php'),
-    'callback'      => array('html_quickform_rule_callback', 'HTML/QuickForm/Rule/Callback.php'),
-    'compare'       => array('html_quickform_rule_compare',  'HTML/QuickForm/Rule/Compare.php')
+    'nonzero'       => array('HTML_QuickForm_Rule_Regex',    'HTML/QuickForm/Rule/Regex.php'),
+    'callback'      => array('HTML_QuickForm_Rule_Regex', 'HTML/QuickForm/Rule/Callback.php'),
+    'compare'       => array('HTML_QuickForm_Rule_Compare',  'HTML/QuickForm/Rule/Compare.php')
 );
 
 // {{{ error codes
