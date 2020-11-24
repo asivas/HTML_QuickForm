@@ -10,10 +10,6 @@
  * @ignore
  */
 
-require_once 'HTML/QuickForm.php';
-require_once 'HTML/QuickForm/Renderer/Array.php';
-// fix this if your Smarty is somewhere else
-require_once 'Smarty.class.php';
 
 $form = new HTML_QuickForm('frmTest', 'post');
 

@@ -23,10 +23,6 @@
  * @link        http://pear.php.net/package/HTML_QuickForm
  */
 
-/**
- * PEAR and PEAR_Error classes, for error handling
- */
-require_once 'PEAR.php';
 
 /**
  * Element types known to HTML_QuickForm

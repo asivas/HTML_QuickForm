@@ -11,7 +11,7 @@
 * @ignore
 */
 
-require_once 'HTML/QuickForm.php';
+
 
 function _validate_shipping($values)
 {

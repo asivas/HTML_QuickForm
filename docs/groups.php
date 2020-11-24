@@ -10,7 +10,7 @@
 * @ignore
 */
 
-require_once 'HTML/QuickForm.php';
+
 
 $form = new HTML_QuickForm('frmGroups');
 $form->setDefaults(array(

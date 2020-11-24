@@ -11,7 +11,6 @@
 * @ignore
 */
 
-require_once 'HTML/QuickForm.php';
 
 $form = new HTML_QuickForm('frmTest', 'get');
 

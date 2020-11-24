@@ -10,9 +10,6 @@
  * @ignore
  */
 
-require_once 'HTML/QuickForm.php';
-require_once 'HTML/QuickForm/Renderer/Object.php';
-require_once 'HTML/Template/Flexy.php';
 
 $form = new HTML_QuickForm('frmTest', 'post');
 
